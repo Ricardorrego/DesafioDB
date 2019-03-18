@@ -1,9 +1,0 @@
-## YAML Templates
----
-default: -p homolog -p sem_headless -p html
-pretty: --format pretty
-html: --format html --out=results/report.html
-homolog: ENVIRONMENT_TYPE=homolog
-dev: ENVIRONMENT_TYPE=dev
-com_headless:  HEADLESS=com_headless
-sem_headless:  HEADLESS=sem_headless
